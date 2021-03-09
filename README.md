@@ -3,8 +3,6 @@
 This project was just to have some fun with React to learn a few new tricks and in the process end up with a fresh looking portfolio site.
 This project was can be viewed here [Portfolio 2021](https://elastic-chandrasekhar-5d7312.netlify.app/).
 
-## Available Scripts
-
 In the project directory, you can run:
 
 ### `npm start`
