@@ -13,7 +13,10 @@ function Portfolio() {
                     </div>
                     <p>I don't just show anyone my work. Please request access using the button below. In hac habitasse platea dictumst. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Fusce risus nisl, viverra et, tempor et, pretium in, sapien. Phasellus volutpat, metus eget.</p>
 
+                    <a href="files/DaveSherlock_CV_2021.pdf" className="btn btn--stroke btn--small">Request Access</a>
 
+                    <br /><br />
+                    <br /><br />
                 </div>
 
 

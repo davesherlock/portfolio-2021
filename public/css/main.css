@@ -1,53 +1,13 @@
-/* =================================================================== 
- *  Ethos Main Stylesheet
- *  Template Ver. 1.0.0
- *  11-05-2019
- *  ------------------------------------------------------------------
- *
- *  TOC:
- *  # custom block grid STACK breakpoints
- *  # base style overrides
- *    ## links
- *  # typography & general theme styles
- *    ## Lists
- *    ## responsive video container
- *    ## floated image 
- *    ## tables
- *    ## Spacing
- *  # preloader
- *  # forms
- *    ## Style Placeholder Text
- *    ## Change Autocomplete styles in Chrome
- *  # buttons
- *  # additional components
- *    ## additional typo styles 
- *    ## skillbars
- *    ## alert box 
- *  # Common and Reusable Styles
- *  # site header
- *    ## header logo
- *    ## main navigation
- *    ## mobile menu toggle
- *    ## download resume button
- *  # hero
- *    ## hero social
- *    ## hero scroll
- *    ## animate intro content
- *    ## animations
- *  # about section
- *    ## career position
- *  # services section
- *    ## services list
- *  # portfolio
- *    ## portfolio list
- *  # testimonials
- *  # CTA
- *  # footer
- *    ## contact block
- *    ## copyright
- *    ## go top
- *
- * =================================================================== */
+
+ /*
+Raspberry: #ef476f
+Cream: #fffcf9
+Mint: #7de2d1
+Ivory: #fff9ef
+Mango: #ffd166
+Slate: #2b2c28
+*/
+
 
 
 /* ===================================================================
@@ -101,7 +61,7 @@ body {
     font-style: normal;
     font-weight: normal;
     line-height: 1.778;
-    color: #000000;
+    color: #2b2c28;
     margin: 0;
     padding: 0;
     position: relative;
@@ -631,7 +591,7 @@ form,
 
 #loader>div {
     content: "";
-    background: #ffffff;
+    background: #fff9ef;
     width: 6px;
     height: 6px;
     position: absolute;
@@ -1006,7 +966,7 @@ input[type="reset"]:focus,
 input[type="button"]:focus {
     background-color: #000000;
     border-color: #000000;
-    color: #ffffff;
+    color: #fff9ef;
     outline: 0;
 }
 
@@ -1021,7 +981,7 @@ input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
     background: #f9861a;
     border-color: #f9861a;
-    color: #ffffff;
+    color: #fff9ef;
 }
 
 .btn.btn--primary:hover,
@@ -1077,7 +1037,7 @@ button.btn--stroke {
 button.btn--stroke:hover {
     background: #000000 !important;
     border: 0.2rem solid #000000;
-    color: #ffffff;
+    color: #fff9ef;
 }
 
 .btn--pill,
@@ -1308,7 +1268,7 @@ input::-moz-focus-inner {
     top: -3.6rem;
     display: block;
     font-family: "Gothic A1", sans-serif;
-    color: #ffffff;
+    color: #fff9ef;
     font-size: 1.1rem;
     line-height: 1;
     background: #000000;
@@ -1543,11 +1503,11 @@ input::-moz-focus-inner {
 }
 
 .h-dark-bg {
-    color: #ffffff;
+    color: #fff9ef;
 }
 
 .h-dark-bg .section-intro .display-1 {
-    color: #ffffff;
+    color: #fff9ef;
 }
 
 .h-dark-bg .section-intro::before {
@@ -1555,7 +1515,7 @@ input::-moz-focus-inner {
 }
 
 .h-dark-bg p.lead {
-    color: #ffffff;
+    color: #fff9ef;
 }
 
 .right-vert-line {
@@ -1750,7 +1710,7 @@ input::-moz-focus-inner {
 
 .header-nav a:hover,
 .header-nav a:focus {
-    color: #ffffff !important;
+    color: #fff9ef !important;
 }
 
 .header-nav li {
@@ -1774,7 +1734,7 @@ input::-moz-focus-inner {
     font-size: 1.4rem;
     text-transform: uppercase;
     letter-spacing: .2rem;
-    color: #ffffff;
+    color: #fff9ef;
     outline: none;
     -webkit-transition: all .3s;
     transition: all .3s;
@@ -1785,14 +1745,14 @@ input::-moz-focus-inner {
 
 .header-menu-toggle:hover,
 .header-menu-toggle:focus {
-    color: #ffffff;
+    color: #fff9ef;
 }
 
 .header-menu-toggle span {
     display: block;
     width: 2.4rem;
     height: 2px;
-    background-color: #ffffff;
+    background-color: #fff9ef;
     -webkit-transition: all .5s;
     transition: all .5s;
     font: 0/0 a;
@@ -1855,8 +1815,8 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 
 .header-content .btn {
-    border-color: #ffffff;
-    color: #ffffff;
+    border-color: #fff9ef;
+    color: #fff9ef;
     margin: 0;
     padding: 0 4rem;
     font-size: 1.1rem;
@@ -2017,7 +1977,7 @@ input::-moz-focus-inner {
     height: 100vh;
     min-height: 82rem;
     overflow: hidden;
-    background-color: transparent;
+    background-color:  #ef476f;
     position: relative;
 }
 
@@ -2034,7 +1994,7 @@ input::-moz-focus-inner {
 }
 
 .no-js .s-hero {
-    background: #ffffff;
+    background: #fff9ef;
 }
 
 .hero-content {
@@ -2054,7 +2014,7 @@ input::-moz-focus-inner {
     line-height: 1.257;
     padding-right: 3.2rem;
     margin-top: 0;
-    color: #ffffff;
+    color: #fff9ef;
     position: relative;
 }
 
@@ -2096,7 +2056,7 @@ input::-moz-focus-inner {
 }
 
 .hero-social a {
-    color: #ffffff;
+    color: #fff9ef;
 }
 
 .hero-social a:hover,
@@ -2173,7 +2133,7 @@ input::-moz-focus-inner {
 }
 
 .hero-scroll .scroll-link svg path {
-    fill: #ffffff;
+    fill: #fff9ef;
 }
 
 .hero-scroll .scroll-link:hover,
@@ -2427,13 +2387,21 @@ html.no-csstransitions .hero-content {
  * ------------------------------------------------------------------- */
 
 .s-about {
-    padding-bottom: 16rem;
     background-color: #ffffff;
     position: relative;
 }
 
 .s-about .right-vert-line {
     background-color: #302c59;
+}
+
+.experience{
+    background-color:  #fff9ef;
+    padding-bottom: 16rem;
+}
+
+.experience h3{
+    color: #ffd166;
 }
 
 .s-about__section--profile {
@@ -2446,7 +2414,7 @@ html.no-csstransitions .hero-content {
 .s-about__section--profile::before {
     content: "";
     display: block;
-    background-color: #b3c2c1;
+    background-color: #7de2d1;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -2485,7 +2453,7 @@ html.no-csstransitions .hero-content {
 .position {
     padding-top: 3.6rem;
     padding-bottom: 3.2rem;
-    border-top: 1px solid #b3c2c1;
+    border-top: 1px solid #ffd166;
 }
 
 .position__header {
@@ -2628,7 +2596,7 @@ html.no-csstransitions .hero-content {
 }
 
 .services-list h5 {
-    color: #ffffff;
+    color: #fff9ef;
 }
 
 .services-list__item {
@@ -2671,8 +2639,8 @@ html.no-csstransitions .hero-content {
 }
 
 .services-list__item-header::after {
-    border-bottom: 2px solid #ffffff;
-    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #fff9ef;
+    border-right: 2px solid #fff9ef;
     content: '';
     display: block;
     height: 6px;
@@ -2790,19 +2758,23 @@ html.no-csstransitions .hero-content {
 .s-portfolio {
     padding-top: 24rem;
     padding-bottom: 0;
-    background-color: #ffffff;
+    background-color: #ef476f;
     position: relative;
 }
 
 .s-portfolio::before {
     content: "";
     display: block;
-    background-color: #b3c2c1;
+    background-color: transparent;
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 50%;
+}
+
+.s-portfolio h3{
+    color: #2b2c28;
 }
 
 
@@ -2853,7 +2825,7 @@ html.no-csstransitions .hero-content {
     font-family: "Gothic A1", sans-serif;
     font-weight: 300;
     font-size: 3rem;
-    color: #ffffff;
+    color: #fff9ef;
     display: block;
     height: 32px;
     width: 32px;
@@ -2895,7 +2867,7 @@ html.no-csstransitions .hero-content {
 }
 
 .folio-item__title {
-    color: #ffffff;
+    color: #fff9ef;
     font-weight: 400;
     font-size: 2.1rem;
     line-height: 1.333;
@@ -2917,7 +2889,7 @@ html.no-csstransitions .hero-content {
     font-size: 1.2rem;
     line-height: 2rem;
     color: #000000;
-    background-color: #ffffff;
+    background-color: #fff9ef;
     padding: .6rem 1.2rem;
     opacity: 0;
     visibility: hidden;
@@ -2945,7 +2917,7 @@ html.no-csstransitions .hero-content {
 .folio-item__project-link:focus,
 .folio-item__project-link:active {
     background-color: #f9861a;
-    color: #ffffff;
+    color: #fff9ef;
 }
 
 
@@ -3035,7 +3007,7 @@ html.no-csstransitions .hero-content {
 .s-testimonials {
     padding-top: 14.4rem;
     padding-bottom: 16rem;
-    background-color: #ffffff;
+    background-color: #fff9ef;
 }
 
 .testimonial-slider {
@@ -3175,7 +3147,7 @@ html.no-csstransitions .hero-content {
 
 .s-cta {
     padding-top: 12rem;
-    background-color: #ffffff;
+    background-color: #fff9ef;
     font-size: 2.2rem;
     line-height: 1.818;
     text-align: center;
@@ -3223,7 +3195,7 @@ html.no-csstransitions .hero-content {
 .s-footer {
     padding-top: 24rem;
     padding-bottom: 8rem;
-    background-color: #0b0a15;
+    background-color: #2b2c28;
     position: relative;
 }
 
@@ -3239,8 +3211,8 @@ html.no-csstransitions .hero-content {
 
 .s-footer .footer-email-us .btn:hover,
 .s-footer .footer-email-us .btn:focus {
-    background-color: #ffffff;
-    border-color: #ffffff;
+    background-color: #fff9ef;
+    border-color: #fff9ef;
     color: #000000;
 }
 
@@ -3262,7 +3234,7 @@ html.no-csstransitions .hero-content {
 }
 
 .footer-contact-block a {
-    color: #ffffff;
+    color: #fff9ef;
 }
 
 .footer-contact-block a:hover,
@@ -3301,7 +3273,7 @@ html.no-csstransitions .hero-content {
 }
 
 .ss-copyright a {
-    color: #ffffff;
+    color: #fff9ef;
 }
 
 .ss-copyright a:hover,
@@ -3372,7 +3344,7 @@ html.no-csstransitions .hero-content {
 }
 
 .ss-go-top svg path {
-    fill: #ffffff;
+    fill: #fff9ef;
 }
 
 .ss-go-top.link-is-visible {

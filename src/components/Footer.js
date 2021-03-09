@@ -6,10 +6,9 @@ function Footer() {
         <div className="row s-footer__main">
             <div className="column large-6">
                 <div className="section-intro" data-aos="fade-up">
-                    <h3 className="subhead">Get In Touch</h3>
+                    <h3 className="subhead">Contact</h3>
                     <h1 className="display-1">
-                        Have an idea or a concept that really excite you?
-                        Let's turn that idea into reality. Shoot me a message.
+                        Got a project that you think I might be interested in?
                 </h1>
                 </div>
                 <div className="footer-email-us">
@@ -27,9 +26,7 @@ function Footer() {
                         </p>
                     </div>
                     <div className="footer-contact-block" data-aos="fade-up">
-                        <h5 className="footer-contact-block__header">
-                            Phone
-                    </h5>
+
                         <p className="footer-contact-block__content">
                             <a href="tel:+1975432345">+197 543 2345</a>
                         </p>
@@ -50,6 +47,12 @@ function Footer() {
             </div>
         </div>
         <div className="row s-footer__bottom">
+
+            <div className="column large-full ss-copyright">
+                <span>© Copyright Dave Sherlock 2019</span>
+
+            </div>
+
             <div className="ss-go-top">
                 <a className="smoothscroll" title="Back to Top" href="#top">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0l8 9h-6v15h-4v-15h-6z" /></svg>

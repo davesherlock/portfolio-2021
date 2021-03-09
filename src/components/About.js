@@ -12,8 +12,8 @@ function About() {
                             <h1 className="display-1">I am happiest when developing software that is both powerful and simple to use.</h1>
                         </div>
                         <div className="profile-pic" data-aos="fade-up">
-                            <img src="images/profile-pic.jpg"
-                                srcSet="images/profile-pic.jpg 1x, images/profile-pic@2x.jpg 2x" alt="" />
+                            <img src="images/profile-pic.png"
+                                srcSet="images/profile-pic.png 1x, images/profile-pic@2x.png 2x" alt="" />
                         </div>
                         <h3 data-aos="fade-up">Profile</h3>
                         <p data-aos="fade-up">
@@ -47,7 +47,7 @@ function About() {
                     </div>
                 </div>
             </div>
-            <div className="s-about__section">
+            <div className="s-about__section experience">
                 <div className="row">
                     <div className="column">
                         <h3 data-aos="fade-up">My Experience</h3>
