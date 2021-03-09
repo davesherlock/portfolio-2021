@@ -9,7 +9,7 @@ function About() {
                     <div className="column large-6 medium-8 tab-full">
                         <div className="section-intro" data-num="01" data-aos="fade-up">
                             <h3 className="subhead">About Me</h3>
-                            <h1 className="display-1">I'm the kind of person who isn't afraid of challenges.</h1>
+                            <h1 className="display-1">I am happiest when developing software that is both powerful and simple to use.</h1>
                         </div>
                         <div className="profile-pic" data-aos="fade-up">
                             <img src="images/profile-pic.jpg"
@@ -17,12 +17,32 @@ function About() {
                         </div>
                         <h3 data-aos="fade-up">Profile</h3>
                         <p data-aos="fade-up">
-                            In consectetuer turpis ut velit. Praesent metus tellus, elementum eu, semper a, adipiscing nec, purus.
-                            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis
-                            mi consectetuer lacinia. Fusce neque. Curabitur nisi. Suspendisse nisl elit, rhoncus eget, elementum ac,
-                            condimentum eget, diam. Phasellus magna. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis,
-                            ipsum. Maecenas egestas arcu quis ligula mattis placerat. Suspendisse pulvinar, augue ac venenatis condimentum,
-                            sem libero volutpat nibh, nec pellentesque velit pede quis nunc.
+                            My objective has always been to work in an environment
+                            where technical skills and creative endeavor function
+                            harmoniously in delivering a useful product or service to
+                            the end user.
+                            <br /> <br />
+                            I have 12+ years of working with both front end and back
+                            end technologies. Currently based in Wicklow, I work as a
+                            full stack developer for Sentient Solutions where my
+                            primary role is to lead the ongoing development of
+                            Scorebuddy, Flightbuddy and Surveybuddy; three
+                            successful cloud based technologies. I am highly
+                            motivated, take great pride in the quality of my work and I
+                            love to turn innovative ideas into great products.
+                            I am a multi-disciplined developer, with an equal
+                            knowledge of both the back end technologies and user
+                            interface/experience methodologies involved in
+                            successful software production. I am happiest when
+                            developing a web service that is both powerful and simple
+                            to use.
+                            <br /> <br />
+                            Current stack:
+                            PHP, MySQL, JavaScript, HTML5, SCSS, GIT, AWS
+                            <br /> <br />
+                            Other skills:
+                            Agile Development, UX Strategy, Balsamiq, Adobe PS/AI
+
                     </p>
                     </div>
                 </div>
@@ -30,7 +50,8 @@ function About() {
             <div className="s-about__section">
                 <div className="row">
                     <div className="column">
-                        <h3 data-aos="fade-up">Career</h3>
+                        <h3 data-aos="fade-up">My Experience</h3>
+                        <p data-aos="fade-up">Since 2009, I have worked at Sentient Solutions Ltd, a Dublin based software company. I act at Lead Developer and Front-End Engineer. Here are the products for which I oversee the design and development.</p>
                     </div>
                 </div>
                 <div className="row block-large-1-2 block-900-full work-positions">
@@ -38,50 +59,41 @@ function About() {
                         <div className="position">
                             <div className="position__header">
                                 <h6>
-                                    <span className="position__co">Google</span>
-                                    <span className="position__pos">Product Designer</span>
+                                    <span className="position__co">Scorebuddy QA</span>
+                                    <span className="position__pos">Lead Developer And Front End Engineer</span>
                                 </h6>
-                                <div className="position__timeframe">
-                                    June 2017 - Present
-                            </div>
                             </div>
 
                             <p>
-                                Pellentesque posuere. Etiam rhoncus. Praesent blandit laoreet nibh.
-                                Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc,
-                                eu sollicitudin urna dolor sagittis lacus.
+                                Scorebuddy is Sentient’s flagship product. It is an award-winning software used in contact and service centers worldwide to measure the performance of Customer Service Representatives and other staff who handle customer omni-channel interactions (calls, chat, email etc.) – generally referred to as Quality Assessment (QA).
+
+                          
                         </p>
+                        <p>As the sole, original developer on this project, I was responsible for the planning, architecting, development and testing of the first version. As the product has grown in popularity and the client base has expanded to over 100 companies and 15,000 users, so has the team around me. My current role is as lead developer on a team of four, tasked with the upkeep, expansion, releases and security of the product.</p>
                         </div>
                     </div>
                     <div className="column" data-aos="fade-up">
                         <div className="position">
                             <div className="position__header">
                                 <h6>
-                                    <span className="position__co">Facebook</span>
-                                    <span className="position__pos">UX Director</span>
-                                </h6>
-                                <div className="position__timeframe">
-                                    August 2015 - June 2017
-                            </div>
+                                    <span className="position__co">Flightbuddy     </span>  </h6>
+                                    <h6>   <span className="position__pos">User Experience Lead</span>  </h6>
+                              
                             </div>
 
                             <p>
-                                Aliquam erat volutpat. Phasellus volutpat, metus eget egestas mollis,
-                                lacus lacus blandit dui, id egestas quam mauris ut lacus. Pellentesque
-                                dapibus hendrerit tortor.
+                            Flightbuddy is a customer services communications platform that automatically alerts passengers of flight delays, cancellations or diversions in multiple languages via SMS and email. Flightbuddy is secure, reliable, scaled for mass disruptions and uses real-time flight data as well as integrating with the airlines booking system to give passengers an alert containing meaningful, accurate and timely information.
                         </p>
+                        <p>I was heavily involved in the early stages of this product's design and development. Paired with a Java developer who would look after the core functions I took the role of UX lead. I worked closely with the customer to ensure we developed a product that delivered an excellent user experience.</p>
                         </div>
                     </div>
                     <div className="column" data-aos="fade-up">
                         <div className="position">
                             <div className="position__header">
                                 <h6>
-                                    <span className="position__co">Dropbox</span>
-                                    <span className="position__pos">Mobile App Designer</span>
-                                </h6>
-                                <div className="position__timeframe">
-                                    April 2014 - August 2015
-                            </div>
+                                    <span className="position__co">Surveybuddy</span> </h6>
+                                    <h6>  <span className="position__pos">Lead Developer</span> </h6>
+                               
                             </div>
 
                             <p>
@@ -94,13 +106,10 @@ function About() {
                     <div className="column" data-aos="fade-up">
                         <div className="position">
                             <div className="position__header">
-                                <h6>
-                                    <span className="position__co">Microsoft</span>
-                                    <span className="position__pos">Product Designer</span>
-                                </h6>
-                                <div className="position__timeframe">
-                                    June 2012 - February 2014
-                            </div>
+                                
+                                <h6>  <span className="position__co">Ryanair</span></h6>
+                                <h6>  <span className="position__pos">Web Developer</span></h6>
+                                
                             </div>
                             <p>
                                 Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
