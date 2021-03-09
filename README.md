@@ -1,7 +1,7 @@
-# portfolio-2021
+# Portfolio 2021
 
-This project was just to have some fun with React to learn a few new tricks and in the process end up with a fresh looking portfolio site.
-This project was can be viewed here [Portfolio 2021](https://elastic-chandrasekhar-5d7312.netlify.app/).
+This project was set up just for fun and to get more familiar with React along the way.
+You can view the following project [Here](https://elastic-chandrasekhar-5d7312.netlify.app/).
 
 In the project directory, you can run:
 
