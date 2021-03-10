@@ -15,7 +15,6 @@ function About() {
                             <img src="images/profile-pic.png"
                                 srcSet="images/profile-pic.png 1x, images/profile-pic@2x.png 2x" alt="" />
                         </div>
-                        <h3 data-aos="fade-up">Profile</h3>
                         <p data-aos="fade-up">
                             My objective has always been to work in an environment
                             where technical skills and creative endeavor function
@@ -50,18 +49,16 @@ function About() {
             <div className="s-about__section experience">
                 <div className="row">
                     <div className="column">
-                        <h3 data-aos="fade-up">My Experience</h3>
-                        <p data-aos="fade-up">Since 2009, I have worked at Sentient Solutions Ltd, a Dublin based software company. I act at Lead Developer and Front-End Engineer. Here are the products for which I oversee the design and development.</p>
+                        <h3 data-aos="fade-up" className="subhead">My Experience</h3>
+                        <h4 data-aos="fade-up">Since 2009, I have worked at Sentient Solutions Ltd, a Dublin based software company. I act at Lead Developer and Front-End Engineer. Here are the products for which I oversee the design and development.</h4>
                     </div>
                 </div>
                 <div className="row block-large-1-2 block-900-full work-positions">
                     <div className="column" data-aos="fade-up">
                         <div className="position">
                             <div className="position__header">
-                                <h6>
-                                    <span className="position__co">Scorebuddy QA</span>
-                                    <span className="position__pos">Lead Developer And Front End Engineer</span>
-                                </h6>
+                                <h1>Scorebuddy QA</h1>
+                                <h6>Lead Developer And Front End Engineer</h6>
                             </div>
 
                             <p>
@@ -75,12 +72,9 @@ function About() {
                     <div className="column" data-aos="fade-up">
                         <div className="position">
                             <div className="position__header">
-                                <h6>
-                                    <span className="position__co">Flightbuddy     </span>  </h6>
-                                    <h6>   <span className="position__pos">User Experience Lead</span>  </h6>
-                              
+                            <h1>Flightbuddy</h1>
+                            <h6>User Experience Lead</h6>
                             </div>
-
                             <p>
                             Flightbuddy is a customer services communications platform that automatically alerts passengers of flight delays, cancellations or diversions in multiple languages via SMS and email. Flightbuddy is secure, reliable, scaled for mass disruptions and uses real-time flight data as well as integrating with the airlines booking system to give passengers an alert containing meaningful, accurate and timely information.
                         </p>
@@ -90,12 +84,9 @@ function About() {
                     <div className="column" data-aos="fade-up">
                         <div className="position">
                             <div className="position__header">
-                                <h6>
-                                    <span className="position__co">Surveybuddy</span> </h6>
-                                    <h6>  <span className="position__pos">Lead Developer</span> </h6>
-                               
+                            <h1>Surveybuddy</h1>
+                            <h6>Lead Developer</h6>
                             </div>
-
                             <p>
                                 In hac habitasse platea dictumst. Donec pede justo, fringilla vel, aliquet nec,
                                 vulputate eget, arcu. Fusce risus nisl, viverra et, tempor et, pretium in, sapien.
@@ -106,10 +97,8 @@ function About() {
                     <div className="column" data-aos="fade-up">
                         <div className="position">
                             <div className="position__header">
-                                
-                                <h6>  <span className="position__co">Ryanair</span></h6>
-                                <h6>  <span className="position__pos">Web Developer</span></h6>
-                                
+                            <h1>Ryanair</h1>
+                            <h6>Web Developer</h6>
                             </div>
                             <p>
                                 Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.

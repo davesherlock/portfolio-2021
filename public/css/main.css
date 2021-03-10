@@ -8,6 +8,40 @@ Mango: #ffd166
 Slate: #2b2c28
 */
 
+@font-face {
+    font-family: 'OPTIAuvantGothic-Bold';
+    src:url('../fonts/OPTIAuvantGothic-Bold.ttf.woff') format('woff'),
+        url('../fonts/OPTIAuvantGothic-Bold.ttf.svg#OPTIAuvantGothic-Bold') format('svg'),
+        url('../fonts/OPTIAuvantGothic-Bold.ttf.eot'),
+        url('../fonts/OPTIAuvantGothic-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham-Book';
+    src:url('../fonts/Gotham-Book.woff') format('woff'),
+        url('../fonts/Gotham-Book.svg#Gotham-Book') format('svg'),
+        url('../fonts/Gotham-Book.eot'),
+        url('../fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Gotham-Bold';
+    src:url('../fonts/Gotham-Bold.woff') format('woff'),
+        url('../fonts/Gotham-Bold.svg#Gotham-Bold') format('svg'),
+        url('../fonts/Gotham-Bold.eot'),
+        url('../fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
 
 
 /* ===================================================================
@@ -56,7 +90,7 @@ body {
 
 body {
     background: #0b0a15;
-    font-family: "Martel", serif;
+    font-family: "OPTIAuvantGothic-Bold", serif;
     font-size: 1.8rem;
     font-style: normal;
     font-weight: normal;
@@ -65,6 +99,10 @@ body {
     margin: 0;
     padding: 0;
     position: relative;
+}
+
+p{
+    font-family: "Gotham-Book";
 }
 
 
@@ -107,7 +145,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-    font-family: "Gothic A1", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-style: normal;
     color: #000000;
@@ -126,6 +164,11 @@ h4,
 .h4 {
     margin-top: 6rem;
     margin-bottom: 1.6rem;
+   
+}
+
+h3{
+    text-transform: uppercase;
 }
 
 @media screen and (max-width:600px) {
@@ -209,7 +252,7 @@ p img {
 }
 
 p.lead {
-    font-family: "Gothic A1", sans-serif;
+    font-family: "Gotham-Book", sans-serif;
     font-weight: 300;
     font-size: 2.4rem;
     line-height: 1.833;
@@ -296,7 +339,7 @@ blockquote p {
 
 blockquote cite {
     display: block;
-    font-family: "Gothic A1", sans-serif;
+    font-family: "Gotham-Book", sans-serif;
     font-size: 1.5rem;
     font-style: normal;
     line-height: 1.333;
@@ -490,7 +533,7 @@ table {
     border-width: 0;
     width: 100%;
     max-width: 100%;
-    font-family: "Gothic A1", sans-serif;
+    font-family: "Gotham-Book", sans-serif;
     border-collapse: collapse;
 }
 
@@ -503,7 +546,7 @@ td {
 
 th {
     color: #000000;
-    font-family: "Gothic A1", sans-serif;
+    font-family: "Gotham-Book", sans-serif;
     font-weight: 700;
 }
 
@@ -771,7 +814,7 @@ select {
     border: 0;
     outline: none;
     color: #000000;
-    font-family: "Gothic A1", sans-serif;
+    font-family: "Gotham-Book", sans-serif;
     font-size: 1.6rem;
     line-height: 3.2rem;
     max-width: 100%;
@@ -845,7 +888,7 @@ select:focus {
 
 label,
 legend {
-    font-family: "Gothic A1", sans-serif;
+    font-family: "Gotham-Book", sans-serif;
     font-weight: 700;
     font-size: 1.4rem;
     margin-bottom: .8rem;
@@ -862,7 +905,7 @@ input[type="radio"] {
 label>.label-text {
     display: inline-block;
     margin-left: 1rem;
-    font-family: "Gothic A1", sans-serif;
+    font-family: "Gotham-Book", sans-serif;
     line-height: inherit;
 }
 
@@ -1066,7 +1109,7 @@ input::-moz-focus-inner {
 
 .drop-cap:first-letter {
     float: left;
-    font-family: "Gothic A1", sans-serif;
+    font-family: "Gotham-Book", sans-serif;
     font-weight: 700;
     font-size: 5.334em;
     line-height: 1;
@@ -1204,7 +1247,7 @@ input::-moz-focus-inner {
 .stats-tabs li a {
     display: inline-block;
     font-size: 2.5rem;
-    font-family: "Gothic A1", sans-serif;
+    font-family: "Gotham-Book", sans-serif;
     font-weight: 700;
     border: none;
     color: #000000;
@@ -1217,7 +1260,7 @@ input::-moz-focus-inner {
 .stats-tabs li a em {
     display: block;
     margin: .8rem 0 0 0;
-    font-family: "Gothic A1", sans-serif;
+    font-family: "Gotham-Book", sans-serif;
     font-size: 1.5rem;
     font-weight: normal;
     font-style: normal;
@@ -1247,7 +1290,7 @@ input::-moz-focus-inner {
     position: absolute;
     left: 0;
     top: -4rem;
-    font-family: "Gothic A1", sans-serif;
+    font-family: "Gotham-Book", sans-serif;
     font-weight: 700;
     color: #000000;
     text-transform: uppercase;
@@ -1267,7 +1310,7 @@ input::-moz-focus-inner {
     right: 0;
     top: -3.6rem;
     display: block;
-    font-family: "Gothic A1", sans-serif;
+    font-family: "Gotham-Book", sans-serif;
     color: #fff9ef;
     font-size: 1.1rem;
     line-height: 1;
@@ -1378,7 +1421,7 @@ input::-moz-focus-inner {
     position: relative;
     margin-bottom: 3.2rem;
     border-radius: 3px;
-    font-family: "Gothic A1", sans-serif;
+    font-family: "Gotham-Book", sans-serif;
     font-weight: 600;
     font-size: 1.5rem;
     line-height: 1.6;
@@ -1474,10 +1517,10 @@ input::-moz-focus-inner {
 }
 
 .subhead {
-    font-size: 1.4rem;
-    line-height: 1.286;
+    font-size: 2.2rem;
+    line-height: 1;
     text-transform: uppercase;
-    letter-spacing: .4em;
+    letter-spacing: 0.2 rem;
     margin-top: 0;
     margin-bottom: 6rem;
     color: #f9861a;
@@ -1695,7 +1738,7 @@ input::-moz-focus-inner {
 
 .header-nav {
     list-style: none;
-    font-family: "Gothic A1", sans-serif;
+    font-family: "Gotham-Book", sans-serif;
     font-weight: 700;
     font-size: 1.4rem;
     line-height: 6rem;
@@ -1730,7 +1773,7 @@ input::-moz-focus-inner {
     height: 4.2rem;
     width: 4.2rem;
     line-height: 4.2rem;
-    font-family: "Gothic A1", sans-serif;
+    font-family: "Gotham-Book", sans-serif;
     font-size: 1.4rem;
     text-transform: uppercase;
     letter-spacing: .2rem;
@@ -2010,8 +2053,9 @@ input::-moz-focus-inner {
 
 .hero-content h1 {
     font-size: 7rem;
-    font-weight: 400;
-    line-height: 1.257;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: 0.1rem;
     padding-right: 3.2rem;
     margin-top: 0;
     color: #fff9ef;
@@ -2043,7 +2087,7 @@ input::-moz-focus-inner {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     flex-flow: row wrap;
-    font-family: "Gothic A1", sans-serif;
+    font-family: "Gotham-Book", sans-serif;
     font-size: 1.2rem;
     font-weight: 700;
     line-height: 3.2rem;
@@ -2386,6 +2430,26 @@ html.no-csstransitions .hero-content {
  *
  * ------------------------------------------------------------------- */
 
+
+ #about h1{
+ font-weight: 800;
+    font-size: 4.6rem;
+    color: #2b2c28;
+    margin-top: 0rem;
+ }
+
+ 
+ #about h2{
+    margin-top: 0rem;
+    font-size: 4.2rem;
+ }
+
+ #about h3{
+    color: #7de2d1;
+ }
+
+
+
 .s-about {
     background-color: #ffffff;
     position: relative;
@@ -2397,7 +2461,8 @@ html.no-csstransitions .hero-content {
 
 .experience{
     background-color:  #fff9ef;
-    padding-bottom: 16rem;
+    padding-bottom: 12rem;
+    padding: 12rem;
 }
 
 .experience h3{
@@ -2405,8 +2470,8 @@ html.no-csstransitions .hero-content {
 }
 
 .s-about__section--profile {
-    padding-top: 28rem;
-    padding-bottom: 4rem;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
     min-height: 108rem;
     position: relative;
 }
@@ -2461,10 +2526,11 @@ html.no-csstransitions .hero-content {
 }
 
 .position__header h6 {
-    font-family: "Martel", serif;
+    font-family: "Gotham-Bold", serif;
     line-height: 2.8rem;
     margin-top: 0;
     margin-bottom: .4rem;
+    color: #666666;
 }
 
 .position__header h6 .position__co {
@@ -2479,7 +2545,7 @@ html.no-csstransitions .hero-content {
 }
 
 .position__timeframe {
-    font-family: "Gothic A1", sans-serif;
+    font-family: "Gotham-Book", sans-serif;
     font-size: 1.5rem;
     font-weight: 400;
     line-height: 2rem;
@@ -2522,7 +2588,7 @@ html.no-csstransitions .hero-content {
 
 @media screen and (max-width:800px) {
     .s-about__section--profile {
-        padding-top: 20rem;
+        padding-top: 12rem;
         padding-bottom: 0;
         min-height: 0;
     }
@@ -2617,7 +2683,7 @@ html.no-csstransitions .hero-content {
 }
 
 .services-list__item-header h5 {
-    font-family: "Gothic A1", sans-serif;
+    font-family: "Gotham-Book", sans-serif;
     font-weight: 400;
     font-size: 3.6rem;
     padding-left: 1.111em;
@@ -2822,7 +2888,7 @@ html.no-csstransitions .hero-content {
 .folio-item__thumb a::after {
     z-index: 1;
     content: "+";
-    font-family: "Gothic A1", sans-serif;
+    font-family: "Gotham-Book", sans-serif;
     font-weight: 300;
     font-size: 3rem;
     color: #fff9ef;
@@ -2876,7 +2942,7 @@ html.no-csstransitions .hero-content {
 
 .folio-item__cat {
     color: rgba(255, 255, 255, 0.5);
-    font-family: "Gothic A1", sans-serif;
+    font-family: "Gotham-Book", sans-serif;
     font-size: 1.4rem;
     margin-bottom: 0;
 }
@@ -2884,7 +2950,7 @@ html.no-csstransitions .hero-content {
 .folio-item__project-link {
     z-index: 2;
     display: block;
-    font-family: "Gothic A1", sans-serif;
+    font-family: "Gotham-Book", sans-serif;
     font-weight: 400;
     font-size: 1.2rem;
     line-height: 2rem;
@@ -3015,7 +3081,7 @@ html.no-csstransitions .hero-content {
 }
 
 .testimonial-slider p {
-    font-family: "Gothic A1", sans-serif;
+    font-family: "Gotham-Book", sans-serif;
     font-weight: 400;
     font-size: 1.7rem;
     line-height: 1.882;
@@ -3097,7 +3163,7 @@ html.no-csstransitions .hero-content {
 
 .testimonial-slider__cite strong,
 .testimonial-slider__cite span {
-    font-family: "Gothic A1", sans-serif;
+    font-family: "Gotham-Book", sans-serif;
     font-style: normal;
 }
 
@@ -3204,7 +3270,7 @@ html.no-csstransitions .hero-content {
 }
 
 .s-footer__bottom {
-    font-family: "Gothic A1", sans-serif;
+    font-family: "Gotham-Book", sans-serif;
     color: rgba(255, 255, 255, 0.5);
     margin-top: 8rem;
 }
@@ -3227,7 +3293,7 @@ html.no-csstransitions .hero-content {
  * ------------------------------------------------------------------- */
 
 .footer-contact-block {
-    font-family: "Gothic A1", sans-serif;
+    font-family: "Gotham-Book", sans-serif;
     font-weight: 400;
     font-size: 3rem;
     line-height: 1.2;

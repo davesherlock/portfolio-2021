@@ -1,7 +1,7 @@
 import React from "react"
 
 function Footer() {
-    return (<footer className="s-footer h-dark-bg">
+    return (<footer id="footer" className="s-footer h-dark-bg">
         <div className="right-vert-line"></div>
         <div className="row s-footer__main">
             <div className="column large-6">
