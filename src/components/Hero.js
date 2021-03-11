@@ -2,7 +2,13 @@ import React from "react"
 
 function Hero() {
     return (
-        <section id="hero" className="s-hero target-section" data-parallax="scroll" data-image-src="images/hero-bg-3000.png" data-natural-width="3000" data-natural-height="2000" data-position-y="center">
+        <section id="hero"
+            className="s-hero target-section"
+            data-parallax="scroll"
+            data-image-src="images/hero-bg-3000.png"
+            data-natural-width="3000"
+            data-natural-height="1500"
+            data-position-y="top">
             <div className="row hero-content">
                 <div className="column large-full">
                     <h1>
