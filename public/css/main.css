@@ -1022,9 +1022,9 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-    background: #f9861a;
-    border-color: #f9861a;
-    color: #fff9ef;
+    background: #ffd166;
+    border-color: #ffd166;
+    color: #2b2c28;
 }
 
 .btn.btn--primary:hover,
@@ -1072,14 +1072,14 @@ button.btn--large {
 .btn--stroke,
 button.btn--stroke {
     background: transparent !important;
-    border: 0.2rem solid #000000;
-    color: #000000;
+    border: 0.2rem solid #ffd166;
+    color: #ffffff;
 }
 
 .btn--stroke:hover,
 button.btn--stroke:hover {
-    background: #000000 !important;
-    border: 0.2rem solid #000000;
+    background: #2b2c28 !important;
+    border: 0.2rem solid #2b2c28;
     color: #fff9ef;
 }
 
@@ -1858,7 +1858,6 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 
 .header-content .btn {
-    border-color: #fff9ef;
     color: #fff9ef;
     margin: 0;
     padding: 0 4rem;
@@ -1872,8 +1871,9 @@ input::-moz-focus-inner {
 
 .header-content .btn:hover,
 .header-content .btn:focus {
-    background-color: #f9861a !important;
-    border-color: #f9861a !important;
+    background-color: #ffd166 !important;
+    border-color: #ffd166 !important;
+    color: #2b2c28;
 }
 
 
@@ -2739,6 +2739,11 @@ html.no-csstransitions .hero-content {
     display: block;
 }
 
+.portfolio-pic{
+    position: absolute;
+    bottom: -2rem;
+}
+
 
 /* ------------------------------------------------------------------- 
  * responsive:
@@ -2840,6 +2845,10 @@ html.no-csstransitions .hero-content {
 
 .s-portfolio h3{
     color: #2b2c28;
+}
+
+#portfolio{
+    padding: 12rem 0;
 }
 
 
@@ -3257,9 +3266,12 @@ html.no-csstransitions .hero-content {
  *
  * ------------------------------------------------------------------- */
 
+ #footer .subhead{
+     color: #fff9ef;
+ }
+
 .s-footer {
-    padding-top: 24rem;
-    padding-bottom: 8rem;
+    padding:12rem 0;
     background-color: #2b2c28;
     position: relative;
 }

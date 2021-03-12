@@ -12,16 +12,13 @@ function Footer() {
                 </h1>
                 </div>
                 <div className="footer-email-us">
-                    <a href="mailto:hello@davesherlock.com" className="btn btn--primary h-full-width">Let's Talk</a>
+                    <a href="mailto:hello@davesherlock.com" className="btn btn--primary">Let's Talk</a>
                 </div>
             </div>
             <div className="column large-5">
                 <div className="footer-contacts">
                     <br />
                     <div className="footer-contact-block" data-aos="fade-up">
-                        <h5 className="footer-contact-block__header">
-                            Social
-                    </h5>
                         <ul className="footer-contact-block__list">
                             <li><a href="http://stackoverflow.com/users/613007/user613007">Stack Overflow</a></li>
                             <li><a href="https://github.com/davesherlock">GitHub</a></li>
