@@ -22,6 +22,7 @@ Slate: #2b2c28
 @font-face {
     font-family: 'Gotham-Book';
     src:url('../fonts/Gotham-Book.woff') format('woff'),
+        url('../fonts/Gotham-Book.woff2') format('woff2'),
         url('../fonts/Gotham-Book.svg#Gotham-Book') format('svg'),
         url('../fonts/Gotham-Book.eot'),
         url('../fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'); 
