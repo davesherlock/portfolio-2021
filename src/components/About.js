@@ -34,10 +34,10 @@ function About() {
                             interface/experience methodologies involved in
                             successful software production.
                             <br /> <br />
-                            <span className="gotham-bold">Current stack:&nbsp;</span>
+                            <span className="gotham">Current stack:&nbsp;</span><br />
                              PHP, MySQL, JavaScript, HTML5, SCSS, GIT, AWS
                             <br /> <br />
-                            <span className="gotham-bold">Other skills:&nbsp;</span>
+                            <span className="gotham">Other skills:&nbsp;</span><br />
                              Agile Development, UX Strategy, Balsamiq, Adobe PS/AI
 
                     </p>
