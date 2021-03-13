@@ -9,11 +9,12 @@ Slate: #2b2c28
 */
 
 @font-face {
-    font-family: 'OPTIAuvantGothic-Bold';
-    src:url('../fonts/OPTIAuvantGothic-Bold.ttf.woff') format('woff'),
-        url('../fonts/OPTIAuvantGothic-Bold.ttf.svg#OPTIAuvantGothic-Bold') format('svg'),
-        url('../fonts/OPTIAuvantGothic-Bold.ttf.eot'),
-        url('../fonts/OPTIAuvantGothic-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-family: 'Okta-Black';
+    src:url('../fonts/Okta-Black.woff') format('woff'),
+        url('../fonts/Okta-Black.woff2') format('woff2'),
+        url('../fonts/Okta-Black.svg#Okta-Black') format('svg'),
+        url('../fonts/Okta-Black.eot'),
+        url('../fonts/Okta-Black.eot?#iefix') format('embedded-opentype'); 
     font-weight: normal;
     font-style: normal;
 }
@@ -38,7 +39,6 @@ Slate: #2b2c28
     font-weight: normal;
     font-style: normal;
 }
-
 
 
 
@@ -90,7 +90,7 @@ body {
 
 body {
     background: #0b0a15;
-    font-family: "OPTIAuvantGothic-Bold", serif;
+    font-family: "Okta-Black", serif;
     font-size: 1.8rem;
     font-style: normal;
     font-weight: normal;
@@ -145,10 +145,10 @@ h6,
 .h4,
 .h5,
 .h6 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Okta-Bold', sans-serif;
     font-weight: 700;
     font-style: normal;
-    color: #000000;
+    color: #2b2c28;
     -webkit-font-variant-ligatures: common-ligatures;
     font-variant-ligatures: common-ligatures;
     text-rendering: optimizeLegibility;
@@ -257,7 +257,7 @@ p.lead {
     font-size: 2.4rem;
     line-height: 1.833;
     margin-bottom: 3.6rem;
-    color: #000000;
+    color: #2b2c28;
 }
 
 @media screen and (max-width:1200px) {
@@ -322,7 +322,7 @@ blockquote p {
     padding: 0;
     font-size: 2.8rem;
     line-height: 1.857;
-    color: #000000;
+    color: #2b2c28;
 }
 
 @media screen and (max-width:1200px) {
@@ -386,7 +386,7 @@ code {
     white-space: nowrap;
     background: #efefef;
     border: 1px solid #d3d3d3;
-    color: #000000;
+    color: #2b2c28;
     border-radius: 3px;
 }
 
@@ -415,7 +415,7 @@ dfn[title] {
 
 mark {
     background: #fff099;
-    color: #000000;
+    color: #2b2c28;
 }
 
 hr {
@@ -545,7 +545,7 @@ td {
 }
 
 th {
-    color: #000000;
+    color: #2b2c28;
     font-family: "Gotham-Book", sans-serif;
     font-weight: 700;
 }
@@ -813,7 +813,7 @@ select {
     padding: 1.8rem 0 1.5rem;
     border: 0;
     outline: none;
-    color: #000000;
+    color: #2b2c28;
     font-family: "Gotham-Book", sans-serif;
     font-size: 1.6rem;
     line-height: 3.2rem;
@@ -850,8 +850,8 @@ select {
 }
 
 .ss-custom-select::after {
-    border-bottom: 2px solid #000000;
-    border-right: 2px solid #000000;
+    border-bottom: 2px solid #2b2c28;
+    border-right: 2px solid #2b2c28;
     content: '';
     display: block;
     height: 8px;
@@ -882,8 +882,8 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-    color: #000000;
-    border-bottom: 1px solid #000000;
+    color: #2b2c28;
+    border-bottom: 1px solid #2b2c28;
 }
 
 label,
@@ -893,7 +893,7 @@ legend {
     font-size: 1.4rem;
     margin-bottom: .8rem;
     line-height: 1.714;
-    color: #000000;
+    color: #2b2c28;
     display: block;
 }
 
@@ -975,7 +975,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
     display: inline-block;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Gotham Bold", sans-serif;
     font-weight: 600;
     font-size: 1.3rem;
     text-transform: uppercase;
@@ -984,7 +984,7 @@ input[type="button"] {
     line-height: 5.6rem;
     padding: 0 3.2rem;
     margin: 0 .4rem 1.6rem 0;
-    color: #000000;
+    color: #2b2c28;
     text-decoration: none;
     text-align: center;
     white-space: nowrap;
@@ -1007,8 +1007,8 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-    background-color: #000000;
-    border-color: #000000;
+    background-color: #2b2c28;
+    border-color: #2b2c28;
     color: #fff9ef;
     outline: 0;
 }
@@ -1037,8 +1037,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-    background: #000000;
-    border-color: #000000;
+    background: #2b2c28;
+    border-color: #2b2c28;
 }
 
 
@@ -1116,7 +1116,7 @@ input::-moz-focus-inner {
     padding: 0 0.125em 0 0;
     text-transform: uppercase;
     background: transparent;
-    color: #000000;
+    color: #2b2c28;
 }
 
 
@@ -1250,7 +1250,7 @@ input::-moz-focus-inner {
     font-family: "Gotham-Book", sans-serif;
     font-weight: 700;
     border: none;
-    color: #000000;
+    color: #2b2c28;
 }
 
 .stats-tabs li a:hover {
@@ -1292,7 +1292,7 @@ input::-moz-focus-inner {
     top: -4rem;
     font-family: "Gotham-Book", sans-serif;
     font-weight: 700;
-    color: #000000;
+    color: #2b2c28;
     text-transform: uppercase;
     letter-spacing: .2rem;
     font-size: 1.4rem;
@@ -1300,7 +1300,7 @@ input::-moz-focus-inner {
 }
 
 .skill-bars li .progress {
-    background: #000000;
+    background: #2b2c28;
     position: relative;
     height: 100%;
 }
@@ -1314,7 +1314,7 @@ input::-moz-focus-inner {
     color: #fff9ef;
     font-size: 1.1rem;
     line-height: 1;
-    background: #000000;
+    background: #2b2c28;
     padding: .8rem .8rem;
     border-radius: 3px;
 }
@@ -1327,7 +1327,7 @@ input::-moz-focus-inner {
     width: 0;
     height: 0;
     border: 5px solid transparent;
-    border-top-color: #000000;
+    border-top-color: #2b2c28;
     content: "";
 }
 
@@ -1524,6 +1524,11 @@ input::-moz-focus-inner {
     margin-top: 0;
     margin-bottom: 6rem;
     color: #f9861a;
+    font-family: "Gotham-Bold", sans-serif;
+}
+
+.gotham-bold{
+    font-family: "Gotham-Bold", sans-serif;
 }
 
 .display-1 {
@@ -2021,6 +2026,11 @@ input::-moz-focus-inner {
     overflow: hidden;
     background-color:  #ef476f;
     position: relative;
+    padding: 12rem 0;
+    background-image: url("../images/hero-bg-3000-v2.png");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;   
 }
 
 .s-hero::before {
@@ -2447,6 +2457,10 @@ html.no-csstransitions .hero-content {
     color: #7de2d1;
  }
 
+ #about .experience h3{
+    color: #ffd166;
+ }
+
 
 
 .s-about {
@@ -2483,7 +2497,7 @@ html.no-csstransitions .hero-content {
     top: 0;
     bottom: 0;
     right: 0;
-    left: calc(50% + 12vw);
+    left: calc(50% + 17vw);
 }
 
 .s-about__section--profile .row {
@@ -2561,7 +2575,7 @@ html.no-csstransitions .hero-content {
 
 @media screen and (max-width:1200px) {
     .s-about__section--profile::before {
-        left: 75%;
+        left: 81%;
     }
     .s-about__section--profile .profile-pic {
         width: 26vw;
@@ -2693,7 +2707,7 @@ html.no-csstransitions .hero-content {
 .services-list__item-header h5::before {
     content: counter(ctr, decimal-leading-zero) ".";
     counter-increment: ctr;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Gotham Bold", sans-serif;
     font-weight: 600;
     font-size: .5em;
     line-height: 1;
@@ -2742,6 +2756,7 @@ html.no-csstransitions .hero-content {
 .portfolio-pic{
     position: absolute;
     bottom: -2rem;
+    right: 0;
 }
 
 
@@ -2962,7 +2977,7 @@ html.no-csstransitions .hero-content {
     font-weight: 400;
     font-size: 1.2rem;
     line-height: 2rem;
-    color: #000000;
+    color: #2b2c28;
     background-color: #fff9ef;
     padding: .6rem 1.2rem;
     opacity: 0;
@@ -3093,7 +3108,7 @@ html.no-csstransitions .hero-content {
     font-weight: 400;
     font-size: 1.7rem;
     line-height: 1.882;
-    color: #000000;
+    color: #2b2c28;
 }
 
 .testimonial-slider .slick-slide {
@@ -3140,7 +3155,7 @@ html.no-csstransitions .hero-content {
 
 .testimonial-slider .slick-dots li.slick-active button,
 .testimonial-slider .slick-dots li:hover button {
-    background: #000000;
+    background: #2b2c28;
 }
 
 .testimonial-slider__slide {
@@ -3290,7 +3305,7 @@ html.no-csstransitions .hero-content {
 .s-footer .footer-email-us .btn:focus {
     background-color: #fff9ef;
     border-color: #fff9ef;
-    color: #000000;
+    color: #2b2c28;
 }
 
 .s-footer .footer-contacts {
@@ -3312,6 +3327,13 @@ html.no-csstransitions .hero-content {
 
 .footer-contact-block a {
     color: #fff9ef;
+    font-size: medium;
+    padding-left: 2rem;
+}
+
+.footer-contact-block img {
+    vertical-align: middle;
+    padding-right: 2rem;
 }
 
 .footer-contact-block a:hover,
@@ -3399,7 +3421,7 @@ html.no-csstransitions .hero-content {
     height: 6.4rem;
     width: 6.4rem;
     border-radius: 50%;
-    background-color: #000000;
+    background-color: #2b2c28;
     -webkit-transition: all .3s;
     transition: all .3s;
     position: relative;

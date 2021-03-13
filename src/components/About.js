@@ -32,15 +32,13 @@ function About() {
                             I am a multi-disciplined developer, with an equal
                             knowledge of both the back end technologies and user
                             interface/experience methodologies involved in
-                            successful software production. I am happiest when
-                            developing a web service that is both powerful and simple
-                            to use.
+                            successful software production.
                             <br /> <br />
-                            Current stack:
-                            PHP, MySQL, JavaScript, HTML5, SCSS, GIT, AWS
+                            <span className="gotham-bold">Current stack:&nbsp;</span>
+                             PHP, MySQL, JavaScript, HTML5, SCSS, GIT, AWS
                             <br /> <br />
-                            Other skills:
-                            Agile Development, UX Strategy, Balsamiq, Adobe PS/AI
+                            <span className="gotham-bold">Other skills:&nbsp;</span>
+                             Agile Development, UX Strategy, Balsamiq, Adobe PS/AI
 
                     </p>
                     </div>

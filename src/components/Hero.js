@@ -4,15 +4,11 @@ function Hero() {
     return (
         <section id="hero"
             className="s-hero target-section"
-            data-parallax="scroll"
-            data-image-src="images/hero-bg-3000.png"
-            data-natural-width="3000"
-            data-natural-height="1500"
-            data-position-y="top">
+            data-parallax="scroll">
             <div className="row hero-content">
                 <div className="column large-full">
                     <h1>
-                        Hi, I'm Dave... <br />
+                        Hi, I'm Dave — <br />
                 Software Developer <br />
                 & Front-end <br />
                 Engineer.

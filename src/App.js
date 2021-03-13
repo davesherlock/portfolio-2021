@@ -6,7 +6,6 @@ import Hero from "./components/Hero"
 import About from "./components/About"
 import Portfolio from "./components/Portfolio"
 import Footer from "./components/Footer"
-import Photoswipe from "./components/Photoswipe"
 
 function App() {
 
@@ -18,7 +17,6 @@ function App() {
             <About />
             <Portfolio />
             <Footer />
-            <Photoswipe />
         </div>
     )
 }
