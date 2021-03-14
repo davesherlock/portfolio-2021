@@ -3481,4 +3481,7 @@ html.no-csstransitions .hero-content {
         right: 2.4rem;
         bottom: 4rem;
     }
+    .footer-contact-block a {
+        padding-left: 0;
+    }
 }
