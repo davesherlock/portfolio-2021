@@ -16,23 +16,11 @@ function About() {
                                 srcSet="images/profile-pic.png 1x, images/profile-pic@2x.png 2x" alt="" />
                         </div>
                         <p data-aos="fade-up">
-                            My objective has always been to work in an environment
-                            where technical skills and creative endeavor function
-                            harmoniously in delivering a useful product or service to
-                            the end user.
-                            <br /> <br />
-                            I have 12+ years of working with both front end and back
-                            end technologies. Currently based in Wicklow, I work as a
-                            full stack developer for Sentient Solutions where my
-                            primary role is to lead the ongoing development of
-                            Scorebuddy, Flightbuddy and Surveybuddy; three
-                            successful cloud based technologies. I am highly
-                            motivated, take great pride in the quality of my work and I
-                            love to turn innovative ideas into great products.
-                            I am a multi-disciplined developer, with an equal
-                            knowledge of both the back end technologies and user
-                            interface/experience methodologies involved in
-                            successful software production.
+                        My objective has always been to work in an environment where technical skills and creative endeavor function harmoniously in delivering a useful product or service to the end user.
+                        <br /><br />
+I have 12+ years of working with both front-end and back-end programming. Currently based in Wicklow/Dublin, I work as a full stack developer for Sentient Solutions where my role is to lead the ongoing development of Scorebuddy, Flightbuddy and Surveybuddy; three successful cloud based technologies. I am highly motivated, take great pride in the quality of my work and I love to turn innovative ideas into great products.
+<br /><br />
+I am a multi-disciplined developer, with an equal knowledge of both the back-end technologies and user interface/experience methodologies involved in successful software production.
                             <br /> <br />
                             <span className="gotham">Current stack:&nbsp;</span><br />
                              PHP, MySQL, JavaScript, HTML5, SCSS, GIT, AWS

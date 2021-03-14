@@ -31,12 +31,9 @@ function Footer() {
             </div>
         </div>
         <div className="row s-footer__bottom">
-
             <div className="column large-full ss-copyright">
                 <span>© Copyright Dave Sherlock 2019</span>
-
             </div>
-
             <div className="ss-go-top">
                 <a className="smoothscroll" title="Back to Top" href="#top">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0l8 9h-6v15h-4v-15h-6z" /></svg>

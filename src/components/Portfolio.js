@@ -16,7 +16,6 @@ function Portfolio() {
                     </div>
                     <a href="files/DaveSherlock_CV_2021.pdf" className="btn btn--stroke btn--small">Request Access</a>
                 </div>
-
             </div>
         </section>
     )
