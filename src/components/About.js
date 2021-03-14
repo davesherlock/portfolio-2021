@@ -20,14 +20,13 @@ function About() {
                         <br /><br />
 I have 12+ years of working with both front-end and back-end programming. Currently based in Wicklow/Dublin, I work as a full stack developer for Sentient Solutions where my role is to lead the ongoing development of Scorebuddy, Flightbuddy and Surveybuddy; three successful cloud based technologies. I am highly motivated, take great pride in the quality of my work and I love to turn innovative ideas into great products.
 <br /><br />
-I am a multi-disciplined developer, with an equal knowledge of both the back-end technologies and user interface/experience methodologies involved in successful software production.
+I am a multi-disciplined developer, with an equal knowledge of both the back-end technologies and user interface and experience methodologies involved in successful software production.
                             <br /> <br />
                             <span className="gotham">Current stack:&nbsp;</span><br />
                              PHP, MySQL, JavaScript, HTML5, SCSS, GIT, AWS
                             <br /> <br />
                             <span className="gotham">Other skills:&nbsp;</span><br />
                              Agile Development, UX Strategy, Balsamiq, Adobe PS/AI
-
                     </p>
                     </div>
                 </div>
@@ -36,7 +35,7 @@ I am a multi-disciplined developer, with an equal knowledge of both the back-end
                 <div className="row">
                     <div className="column">
                         <h3 data-aos="fade-up" className="subhead">My Experience</h3>
-                        <h4 data-aos="fade-up">Since 2009, I have worked at Sentient Solutions Ltd, a Dublin based software company. I act at Lead Developer and Front-End Engineer. Here are the products for which I oversee the design and development.</h4>
+                        <h4 data-aos="fade-up">Since 2009, I have worked at Sentient Solutions Ltd, a Dublin based software company. I act at Lead Developer and Front-End Engineer. Here are the products for which I lead the design and development.</h4>
                     </div>
                 </div>
                 <div className="row block-large-1-2 block-900-full work-positions">

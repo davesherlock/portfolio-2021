@@ -13,7 +13,6 @@ function Hero() {
                 & Front-end <br />
                 Engineer.
                 </h1>
-
                 </div>
             </div>
             <div className="hero-scroll">

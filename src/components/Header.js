@@ -21,7 +21,6 @@ function Header() {
             </div>
             <a className="header-menu-toggle" href="#0"><span>Menu</span></a>
         </header>
-
     )
 }
 
