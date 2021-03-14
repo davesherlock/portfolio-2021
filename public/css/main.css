@@ -1,5 +1,4 @@
-
- /*
+/*
 Raspberry: #ef476f
 Cream: #fffcf9
 Mint: #7de2d1
@@ -7,12 +6,6 @@ Ivory: #fff9ef
 Mango: #ffd166
 Slate: #2b2c28
 */
-
-
-
-
-
-
 
 /* ===================================================================
  * # custom block grid STACK breakpoints
@@ -3483,5 +3476,6 @@ html.no-csstransitions .hero-content {
     }
     .footer-contact-block a {
         padding-left: 0;
+        font-size: 1.4rem;
     }
 }
