@@ -2716,13 +2716,6 @@ html.no-csstransitions .hero-content {
     display: block;
 }
 
-.portfolio-pic{
-    position: absolute;
-    bottom: -2rem;
-    right: 0;
-}
-
-
 /* ------------------------------------------------------------------- 
  * responsive:
  * services
@@ -2808,6 +2801,9 @@ html.no-csstransitions .hero-content {
     padding-bottom: 0;
     background-color: #ef476f;
     position: relative;
+    background-image: url(../images/scorebuddy.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .s-portfolio::before {
@@ -3423,6 +3419,10 @@ html.no-csstransitions .hero-content {
  * ------------------------------------------------------------------- */
 
 @media screen and (max-width:1200px) {
+    .s-portfolio {
+        background-image: none;
+        background-size: 50%;
+    }
     .ss-go-top {
         right: 6rem;
     }
@@ -3433,6 +3433,10 @@ html.no-csstransitions .hero-content {
 }
 
 @media screen and (max-width:900px) {
+    .s-portfolio {
+        background-image: none;
+        background-size: 50%;
+    }
     .s-footer .footer-contacts {
         margin-left: 0;
     }
@@ -3445,6 +3449,10 @@ html.no-csstransitions .hero-content {
 }
 
 @media screen and (max-width:800px) {
+    .s-portfolio {
+        background-image: none;
+        background-size: 50%;
+    }
     .s-footer {
         padding-top: 20rem;
     }
@@ -3461,6 +3469,10 @@ html.no-csstransitions .hero-content {
 }
 
 @media screen and (max-width:600px) {
+    .s-portfolio {
+        background-image: none;
+        background-size: 50%;
+    }
     .ss-copyright {
         padding-right: 8rem;
     }
