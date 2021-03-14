@@ -10,35 +10,35 @@ Slate: #2b2c28
 
 @font-face {
     font-family: 'Okta-Black';
-    src:url('../fonts/Okta-Black.woff') format('woff'),
-        url('../fonts/Okta-Black.woff2') format('woff2'),
-        url('../fonts/Okta-Black.svg#Okta-Black') format('svg'),
-        url('../fonts/Okta-Black.eot'),
-        url('../fonts/Okta-Black.eot?#iefix') format('embedded-opentype'); 
-    font-weight: normal;
-    font-style: normal;
+    font-weight: normal;  
+    font-style: normal;  
+    font-display: swap;
+    unicode-range: U+000-5FF;
+    src:url('../fonts/Okta-Black.woff2') format('woff2'),
+        url('../fonts/Okta-Black.woff') format('woff');
 }
+
+
 
 @font-face {
     font-family: 'Gotham-Book';
-    src:url('../fonts/Gotham-Book.woff') format('woff'),
-        url('../fonts/Gotham-Book.woff2') format('woff2'),
-        url('../fonts/Gotham-Book.svg#Gotham-Book') format('svg'),
-        url('../fonts/Gotham-Book.eot'),
-        url('../fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'); 
-    font-weight: normal;
-    font-style: normal;
+    font-weight: normal;  
+    font-style: normal;  
+    font-display: swap;
+    unicode-range: U+000-5FF;
+    src:url('../fonts/Gotham-Book.woff2') format('woff2'),
+        url('../fonts/Gotham-Book.woff') format('woff'); 
 }
 
 
 @font-face {
     font-family: 'Gotham-Bold';
-    src:url('../fonts/Gotham-Bold.woff') format('woff'),
-        url('../fonts/Gotham-Bold.svg#Gotham-Bold') format('svg'),
-        url('../fonts/Gotham-Bold.eot'),
-        url('../fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'); 
-    font-weight: normal;
-    font-style: normal;
+    font-weight: normal;  
+    font-style: normal;  
+    font-display: swap;
+    unicode-range: U+000-5FF;
+    src:url('../fonts/Gotham-Bold.woff2') format('woff2'),
+        url('../fonts/Gotham-Book.woff') format('woff'); 
 }
 
 
