@@ -1501,7 +1501,7 @@ input::-moz-focus-inner {
 
 .section-intro {
     position: relative;
-    margin-bottom: 12rem;
+    margin-bottom: 6rem;
 }
 
 .section-intro .display-1 {
@@ -1994,6 +1994,7 @@ input::-moz-focus-inner {
     background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center;   
+    background-blend-mode: soft-light;
 }
 
 .s-hero::before {
@@ -2424,7 +2425,9 @@ html.no-csstransitions .hero-content {
     color: #ffd166;
  }
 
-
+ #about .experience h4{
+    margin-top: 7rem;
+ }
 
 .s-about {
     background-color: #ffffff;
@@ -2494,7 +2497,7 @@ html.no-csstransitions .hero-content {
 .position {
     padding-top: 3.6rem;
     padding-bottom: 3.2rem;
-    border-top: 1px solid #ffd166;
+    border-top: 3px solid #ffd166;
 }
 
 .position__header {
@@ -2804,6 +2807,7 @@ html.no-csstransitions .hero-content {
     background-image: url(../images/scorebuddy.png);
     background-repeat: no-repeat;
     background-position: bottom right;
+    background-size: 50%;
 }
 
 .s-portfolio::before {
@@ -2998,6 +3002,10 @@ html.no-csstransitions .hero-content {
     transform: translate3d(0, 0, 0);
 }
 
+.mobile-portfolio-pic{
+    display: none;
+}
+
 
 /* ------------------------------------------------------------------- 
  * responsive:
@@ -3017,6 +3025,10 @@ html.no-csstransitions .hero-content {
     .folio-item__cat {
         font-size: 1.2rem;
     }
+    .s-portfolio {
+        background-image: none;
+        background-size: 50%;
+    }
 }
 
 @media screen and (max-width:800px) {
@@ -3032,6 +3044,13 @@ html.no-csstransitions .hero-content {
     .folio-item__cat {
         font-size: 1.4rem;
     }
+    .s-portfolio {
+        background-image: none;
+        background-size: 50%;
+    }
+    .mobile-portfolio-pic{
+        display: block;
+    }
 }
 
 @media screen and (max-width:600px) {
@@ -3044,154 +3063,14 @@ html.no-csstransitions .hero-content {
     .folio-item__cat {
         font-size: 1.2rem;
     }
-}
-
-
-/* ===================================================================
- * # testimonials
- *
- * ------------------------------------------------------------------- */
-
-.s-testimonials {
-    padding-top: 14.4rem;
-    padding-bottom: 16rem;
-    background-color: #fff9ef;
-}
-
-.testimonial-slider {
-    position: relative;
-}
-
-.testimonial-slider p {
-    font-family: "Gotham-Book", sans-serif;
-    font-weight: 400;
-    font-size: 1.7rem;
-    line-height: 1.882;
-    color: #2b2c28;
-}
-
-.testimonial-slider .slick-slide {
-    outline: none;
-}
-
-.testimonial-slider .slick-dots {
-    display: block;
-    list-style: none;
-    padding: 0;
-    margin: 5.6rem 0 0 0;
-    text-align: center;
-}
-
-.testimonial-slider .slick-dots li {
-    display: inline-block;
-    width: 27px;
-    height: 27px;
-    margin: 0;
-    padding: 9px;
-    cursor: pointer;
-}
-
-.testimonial-slider .slick-dots li button {
-    display: block;
-    width: 10px;
-    height: 10px;
-    line-height: 10px;
-    border-radius: 50%;
-    background: rgba(0, 0, 0, 0.4);
-    border: none;
-    padding: 0;
-    margin: 0;
-    cursor: pointer;
-    font: 0/0 a;
-    text-shadow: none;
-    color: transparent;
-}
-
-.testimonial-slider .slick-dots li button:hover,
-.testimonial-slider .slick-dots li button:focus {
-    outline: none;
-}
-
-.testimonial-slider .slick-dots li.slick-active button,
-.testimonial-slider .slick-dots li:hover button {
-    background: #2b2c28;
-}
-
-.testimonial-slider__slide {
-    position: relative;
-    padding: 0 20px;
-}
-
-.testimonial-slider__author {
-    min-height: 7.2rem;
-    margin-top: 4rem;
-    padding-left: 8.8rem;
-    position: relative;
-}
-
-.testimonial-slider__avatar {
-    width: 6.8rem;
-    height: 6.8rem;
-    border-radius: 100%;
-    outline: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.testimonial-slider__cite {
-    display: block;
-}
-
-.testimonial-slider__cite strong,
-.testimonial-slider__cite span {
-    font-family: "Gotham-Book", sans-serif;
-    font-style: normal;
-}
-
-.testimonial-slider__cite strong {
-    font-size: 1.6rem;
-    line-height: 1.75;
-}
-
-.testimonial-slider__cite span {
-    display: block;
-    font-size: 1.5rem;
-    line-height: 1.333;
-    color: rgba(0, 0, 0, 0.7);
-}
-
-
-/* ------------------------------------------------------------------- 
- * responsive:
- * testimonials
- * ------------------------------------------------------------------- */
-
-@media screen and (max-width:800px) {
-    .testimonial-slider__slide {
-        text-align: center;
+    .s-portfolio {
+        background-image: none;
+        background-size: 50%;
     }
-    .testimonial-slider__author {
-        display: inline-block;
+    .mobile-portfolio-pic{
+        display: block;
     }
 }
-
-@media screen and (max-width:400px) {
-    .testimonial-slider__author {
-        margin: 0;
-        padding: 0;
-    }
-    .testimonial-slider__avatar {
-        position: static;
-        margin-bottom: 2.4rem;
-    }
-}
-
-
-/* ===================================================================
- * # CTA
- *
- * ------------------------------------------------------------------- */
 
 .s-cta {
     padding-top: 12rem;
@@ -3419,10 +3298,6 @@ html.no-csstransitions .hero-content {
  * ------------------------------------------------------------------- */
 
 @media screen and (max-width:1200px) {
-    .s-portfolio {
-        background-image: none;
-        background-size: 50%;
-    }
     .ss-go-top {
         right: 6rem;
     }
@@ -3433,10 +3308,6 @@ html.no-csstransitions .hero-content {
 }
 
 @media screen and (max-width:900px) {
-    .s-portfolio {
-        background-image: none;
-        background-size: 50%;
-    }
     .s-footer .footer-contacts {
         margin-left: 0;
     }
@@ -3449,10 +3320,6 @@ html.no-csstransitions .hero-content {
 }
 
 @media screen and (max-width:800px) {
-    .s-portfolio {
-        background-image: none;
-        background-size: 50%;
-    }
     .s-footer {
         padding-top: 20rem;
     }
@@ -3469,10 +3336,6 @@ html.no-csstransitions .hero-content {
 }
 
 @media screen and (max-width:600px) {
-    .s-portfolio {
-        background-image: none;
-        background-size: 50%;
-    }
     .ss-copyright {
         padding-right: 8rem;
     }
