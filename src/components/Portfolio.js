@@ -12,7 +12,7 @@ function Portfolio() {
                         <div className=" mobile-portfolio-pic">
                             <img src="images/scorebuddy-laptop.png" alt="scorebuddy-on-laptop" />
                         </div>
-                        <p>I don't just show anyone my work. Please request access using the button below. In hac habitasse platea dictumst. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Fusce risus nisl, viverra et, tempor et, pretium in, sapien. Phasellus volutpat, metus eget.</p>
+                        <p>The past decade has been a busy one, with lots of development and user interface design. If you're interested in seeing some of my work, please let me know via the link below.</p>
                     </div>
                     <a href="files/DaveSherlock_CV_2021.pdf" className="btn btn--stroke btn--small">Request Access</a>
                 </div>

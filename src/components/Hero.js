@@ -8,7 +8,7 @@ function Hero() {
             <div className="row hero-content">
                 <div className="column large-full">
                     <h1>
-                        Hi, I'm Dave — <br />
+                        Hi, I'm Dave - <br />
                 Software Developer <br />
                 & Front-end <br />
                 Engineer.

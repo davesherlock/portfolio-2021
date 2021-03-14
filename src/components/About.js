@@ -47,11 +47,11 @@ I am a multi-disciplined developer, with an equal knowledge of both the back-end
                             </div>
 
                             <p>
-                                Scorebuddy is Sentient’s flagship product. It is an award-winning software used in contact and service centers worldwide to measure the performance of Customer Service Representatives and other staff who handle customer omni-channel interactions (calls, chat, email etc.) – generally referred to as Quality Assessment (QA).
+                                Scorebuddy is Sentient’s flagship product. It is an award winning software used in contact and service centers worldwide to measure the performance of Customer Service Representatives and other staff who handle omni-channel customer interactions (such as calls, chat, email). This is generally referred to as Quality Assessment (QA).
 
                           
                         </p>
-                        <p>As the sole, original developer on this project, I was responsible for the planning, architecting, development and testing of the first version. As the product has grown in popularity and the client base has expanded to over 100 companies and 15,000 users, so has the team around me. My current role is as lead developer on a team of four, tasked with the upkeep, expansion, releases and security of the product.</p>
+                        <p>As the original developer on this project, I was responsible for the planning, architecting, development and testing of the first version. As the product has grown in popularity and the client base has expanded to over 100 companies and 15,000 users, so has the team around me. My current role is as lead developer on a team of ten, tasked with the upkeep, expansion, releases and security of the product.</p>
                         </div>
                     </div>
                     <div className="column" data-aos="fade-up">
@@ -61,9 +61,9 @@ I am a multi-disciplined developer, with an equal knowledge of both the back-end
                             <h6>User Experience Lead</h6>
                             </div>
                             <p>
-                            Flightbuddy is a customer services communications platform that automatically alerts passengers of flight delays, cancellations or diversions in multiple languages via SMS and email. Flightbuddy is secure, reliable, scaled for mass disruptions and uses real-time flight data as well as integrating with the airlines booking system to give passengers an alert containing meaningful, accurate and timely information.
+                            Flightbuddy is a customer service communications platform that automatically alerts passengers of flight delays, cancellations or diversions in multiple languages via SMS and email. Flightbuddy is secure, reliable, scaled for mass disruptions and uses real-time flight data as well as integrating with the airlines booking system to give passengers an alert containing meaningful, accurate and timely information.
                         </p>
-                        <p>I was heavily involved in the early stages of this product's design and development. Paired with a Java developer who would look after the core functions I took the role of UX lead. I worked closely with the customer to ensure we developed a product that delivered an excellent user experience.</p>
+                        <p>I was involved in the early stages of this product's design and development. Paired with a Java developer who would look after the core functions, I took the role of UX lead. I worked closely with the customer to ensure we developed a product that delivered an excellent user experience.</p>
                         </div>
                     </div>
                     <div className="column" data-aos="fade-up">
