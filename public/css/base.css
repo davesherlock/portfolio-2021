@@ -31,8 +31,6 @@
         url('../fonts/Okta-Black.woff') format('woff');
 }
 
-
-
 @font-face {
     font-family: 'Gotham-Book';
     font-weight: normal;  
@@ -40,9 +38,9 @@
     font-display: swap;
     unicode-range: U+000-5FF;
     src:url('../fonts/Gotham-Book.woff2') format('woff2'),
-        url('../fonts/Gotham-Book.woff') format('woff'); 
+        url('../fonts/Gotham-Book.woff') format('woff'),
+		url('../fonts/Gotham-Book.ttf') format('truetype'); 
 }
-
 
 @font-face {
     font-family: 'Gotham-Bold';
@@ -51,9 +49,9 @@
     font-display: swap;
     unicode-range: U+000-5FF;
     src:url('../fonts/Gotham-Bold.woff2') format('woff2'),
-        url('../fonts/Gotham-Book.woff') format('woff'); 
+        url('../fonts/Gotham-Book.woff') format('woff'),
+		url('../fonts/Gotham-Book.ttf') format('truetype'); 
 }
-
 
 /* ==========================================================================
  * # normalize
