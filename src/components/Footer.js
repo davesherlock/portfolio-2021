@@ -15,14 +15,13 @@ function Footer() {
                     <a href="mailto:hello@davesherlock.com" className="btn btn--primary">Let's Talk</a>
                 </div>
             </div>
-            <div className="column large-5">
+            <div className="column large-6">
                 <div className="footer-contacts">
-                    <br />
                     <div className="footer-contact-block" data-aos="fade-up">
                         <ul className="footer-contact-block__list">
                             <li><a href="http://stackoverflow.com/users/613007/user613007">
                                 <img src="images/stack-overflow.png" alt="stack-overflow" />
-                                stackoverflow.com/users/davesherlock</a>
+                                stackoverflow.com/davesherlock</a>
                             </li>
                             <li><a href="https://github.com/davesherlock"><img src="images/github.png" alt="git-hub" />github.com/davesherlock</a></li>
                             <li><a href="https://ie.linkedin.com/in/davesherlock"><img src="images/linkedin.png" alt="linked-in" />linkedin.com/in/davesherlock</a></li>
