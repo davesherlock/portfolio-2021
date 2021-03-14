@@ -14,7 +14,7 @@ function Portfolio() {
                         </div>
                         <p>The past decade has been a busy one, with lots of development and user interface design. If you're interested in seeing some of my work, please let me know via the link below.</p>
                     </div>
-                    <a href="files/DaveSherlock_CV_2021.pdf" className="btn btn--stroke btn--small">Request Access</a>
+                    <a href="mailto:hello@davesherlock.com" className="btn btn--stroke btn--small">Request Access</a>
                 </div>
             </div>
         </section>
