@@ -17,7 +17,7 @@ function Header() {
                         <li><a className="smoothscroll" href="#footer" title="Contact us">Say Hello</a></li>
                     </ul>
                 </nav>
-                <a href="files/DaveSherlock_CV_2021.pdf" className="btn btn--stroke btn--small">Download CV</a>
+                <a href="files/DaveSherlock-CV-2021.pdf" className="btn btn--stroke btn--small">Download CV</a>
             </div>
             <a className="header-menu-toggle" href="#0"><span>Menu</span></a>
         </header>

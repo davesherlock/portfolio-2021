@@ -6,6 +6,9 @@ import Hero from "./components/Hero"
 import About from "./components/About"
 import Portfolio from "./components/Portfolio"
 import Footer from "./components/Footer"
+import './scss/Base.scss';
+import './scss/App.scss';
+import './scss/Vendor.scss';
 
 function App() {
 
