@@ -1,11 +1,14 @@
-/*
-Raspberry: #ef476f
-Cream: #fffcf9
-Mint: #7de2d1
-Ivory: #fff9ef
-Mango: #ffd166
-Slate: #2b2c28
-*/
+/* ===================================================================
+ * # custom colours
+ *
+ * ------------------------------------------------------------------- */
+
+$raspberry: #ef476f;
+$cream: #fffcf9;
+$mint: #7de2d1;
+$ivory: #fff9ef;
+$mango: #ffd166;
+$slate: #2b2c28;
 
 /* ===================================================================
  * # custom block grid STACK breakpoints
@@ -58,7 +61,7 @@ body {
   font-style: normal;
   font-weight: normal;
   line-height: 1.778;
-  color: #2b2c28;
+  color: $slate;
   margin: 0;
   padding: 0;
   position: relative;
@@ -74,7 +77,7 @@ p{
 * ------------------------------------------------------------------- */
 
 a {
-  color: #ffd166;
+  color: $mango;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -111,7 +114,7 @@ h6,
   font-family: 'Okta-Black', sans-serif;
   font-weight: 700;
   font-style: normal;
-  color: #2b2c28;
+  color: $slate;
   -webkit-font-variant-ligatures: common-ligatures;
   font-variant-ligatures: common-ligatures;
   text-rendering: optimizeLegibility;
@@ -220,7 +223,7 @@ p.lead {
   font-size: 2.4rem;
   line-height: 1.833;
   margin-bottom: 3.6rem;
-  color: #2b2c28;
+  color: $slate;
 }
 
 @media screen and (max-width:1200px) {
@@ -285,7 +288,7 @@ blockquote p {
   padding: 0;
   font-size: 2.8rem;
   line-height: 1.857;
-  color: #2b2c28;
+  color: $slate;
 }
 
 @media screen and (max-width:1200px) {
@@ -349,7 +352,7 @@ code {
   white-space: nowrap;
   background: #efefef;
   border: 1px solid #d3d3d3;
-  color: #2b2c28;
+  color: $slate;
   border-radius: 3px;
 }
 
@@ -378,7 +381,7 @@ dfn[title] {
 
 mark {
   background: #fff099;
-  color: #2b2c28;
+  color: $slate;
 }
 
 hr {
@@ -435,7 +438,7 @@ ul.disc li::before {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #ffd166;
+  background: $mango;
   position: absolute;
   left: -16px;
   top: 11px;
@@ -444,7 +447,7 @@ ul.disc li::before {
 
 dt {
   margin: 0;
-  color: #ffd166;
+  color: $mango;
 }
 
 dd {
@@ -508,7 +511,7 @@ td {
 }
 
 th {
-  color: #2b2c28;
+  color: $slate;
   font-family: "Gotham-Book", sans-serif;
   font-weight: 700;
 }
@@ -597,7 +600,7 @@ form,
 
 #loader>div {
   content: "";
-  background: #fff9ef;
+  background: $ivory;
   width: 6px;
   height: 6px;
   position: absolute;
@@ -776,7 +779,7 @@ select {
   padding: 1.8rem 0 1.5rem;
   border: 0;
   outline: none;
-  color: #2b2c28;
+  color: $slate;
   font-family: "Gotham-Book", sans-serif;
   font-size: 1.6rem;
   line-height: 3.2rem;
@@ -813,8 +816,8 @@ select {
 }
 
 .ss-custom-select::after {
-  border-bottom: 2px solid #2b2c28;
-  border-right: 2px solid #2b2c28;
+  border-bottom: 2px solid $slate;
+  border-right: 2px solid $slate;
   content: '';
   display: block;
   height: 8px;
@@ -845,8 +848,8 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-  color: #2b2c28;
-  border-bottom: 1px solid #2b2c28;
+  color: $slate;
+  border-bottom: 1px solid $slate;
 }
 
 label,
@@ -856,7 +859,7 @@ legend {
   font-size: 1.4rem;
   margin-bottom: .8rem;
   line-height: 1.714;
-  color: #2b2c28;
+  color: $slate;
   display: block;
 }
 
@@ -921,7 +924,7 @@ textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  -webkit-text-fill-color: #ffd166;
+  -webkit-text-fill-color: $mango;
   -webkit-transition: background-color 5000s ease-in-out 0s;
   transition: background-color 5000s ease-in-out 0s;
 }
@@ -947,7 +950,7 @@ input[type="button"] {
   line-height: 5.6rem;
   padding: 0 3.2rem;
   margin: 0 .4rem 1.6rem 0;
-  color: #2b2c28;
+  color: $slate;
   text-decoration: none;
   text-align: center;
   white-space: nowrap;
@@ -970,9 +973,9 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  background-color: #2b2c28;
-  border-color: #2b2c28;
-  color: #fff9ef;
+  background-color: $slate;
+  border-color: $slate;
+  color: $ivory;
   outline: 0;
 }
 
@@ -985,9 +988,9 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-  background: #ffd166;
-  border-color: #ffd166;
-  color: #2b2c28;
+  background: $mango;
+  border-color: $mango;
+  color: $slate;
 }
 
 .btn.btn--primary:hover,
@@ -1000,8 +1003,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-  background: #2b2c28;
-  border-color: #2b2c28;
+  background: $slate;
+  border-color: $slate;
 }
 
 
@@ -1035,15 +1038,15 @@ button.btn--large {
 .btn--stroke,
 button.btn--stroke {
   background: transparent !important;
-  border: 0.2rem solid #ffd166;
+  border: 0.2rem solid $mango;
   color: #ffffff;
 }
 
 .btn--stroke:hover,
 button.btn--stroke:hover {
-  background: #2b2c28 !important;
-  border: 0.2rem solid #2b2c28;
-  color: #fff9ef;
+  background: $slate !important;
+  border: 0.2rem solid $slate;
+  color: $ivory;
 }
 
 .btn--pill,
@@ -1079,7 +1082,7 @@ input::-moz-focus-inner {
   padding: 0 0.125em 0 0;
   text-transform: uppercase;
   background: transparent;
-  color: #2b2c28;
+  color: $slate;
 }
 
 
@@ -1213,11 +1216,11 @@ input::-moz-focus-inner {
   font-family: "Gotham-Book", sans-serif;
   font-weight: 700;
   border: none;
-  color: #2b2c28;
+  color: $slate;
 }
 
 .stats-tabs li a:hover {
-  color: #ffd166;
+  color: $mango;
 }
 
 .stats-tabs li a em {
@@ -1255,7 +1258,7 @@ input::-moz-focus-inner {
   top: -4rem;
   font-family: "Gotham-Book", sans-serif;
   font-weight: 700;
-  color: #2b2c28;
+  color: $slate;
   text-transform: uppercase;
   letter-spacing: .2rem;
   font-size: 1.4rem;
@@ -1263,7 +1266,7 @@ input::-moz-focus-inner {
 }
 
 .skill-bars li .progress {
-  background: #2b2c28;
+  background: $slate;
   position: relative;
   height: 100%;
 }
@@ -1274,10 +1277,10 @@ input::-moz-focus-inner {
   top: -3.6rem;
   display: block;
   font-family: "Gotham-Book", sans-serif;
-  color: #fff9ef;
+  color: $ivory;
   font-size: 1.1rem;
   line-height: 1;
-  background: #2b2c28;
+  background: $slate;
   padding: .8rem .8rem;
   border-radius: 3px;
 }
@@ -1290,7 +1293,7 @@ input::-moz-focus-inner {
   width: 0;
   height: 0;
   border: 5px solid transparent;
-  border-top-color: #2b2c28;
+  border-top-color: $slate;
   content: "";
 }
 
@@ -1486,7 +1489,7 @@ input::-moz-focus-inner {
   letter-spacing: 0.2 rem;
   margin-top: 0;
   margin-bottom: 6rem;
-  color: #ffd166;
+  color: $mango;
   font-family: "Gotham-Bold", sans-serif;
 }
 
@@ -1514,11 +1517,11 @@ input::-moz-focus-inner {
 }
 
 .h-dark-bg {
-  color: #fff9ef;
+  color: $ivory;
 }
 
 .h-dark-bg .section-intro .display-1 {
-  color: #fff9ef;
+  color: $ivory;
 }
 
 .h-dark-bg .section-intro::before {
@@ -1526,7 +1529,7 @@ input::-moz-focus-inner {
 }
 
 .h-dark-bg p.lead {
-  color: #fff9ef;
+  color: $ivory;
 }
 
 .right-vert-line {
@@ -1721,7 +1724,7 @@ input::-moz-focus-inner {
 
 .header-nav a:hover,
 .header-nav a:focus {
-  color: #fff9ef !important;
+  color: $ivory !important;
 }
 
 .header-nav li {
@@ -1745,7 +1748,7 @@ input::-moz-focus-inner {
   font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: .2rem;
-  color: #fff9ef;
+  color: $ivory;
   outline: none;
   -webkit-transition: all .3s;
   transition: all .3s;
@@ -1756,14 +1759,14 @@ input::-moz-focus-inner {
 
 .header-menu-toggle:hover,
 .header-menu-toggle:focus {
-  color: #fff9ef;
+  color: $ivory;
 }
 
 .header-menu-toggle span {
   display: block;
   width: 2.4rem;
   height: 2px;
-  background-color: #fff9ef;
+  background-color: $ivory;
   -webkit-transition: all .5s;
   transition: all .5s;
   font: 0/0 a;
@@ -1826,7 +1829,7 @@ input::-moz-focus-inner {
 * ------------------------------------------------------------------- */
 
 .header-content .btn {
-  color: #fff9ef;
+  color: $ivory;
   margin: 0;
   padding: 0 4rem;
   font-size: 1.1rem;
@@ -1839,9 +1842,9 @@ input::-moz-focus-inner {
 
 .header-content .btn:hover,
 .header-content .btn:focus {
-  background-color: #ffd166 !important;
-  border-color: #ffd166 !important;
-  color: #2b2c28;
+  background-color: $mango !important;
+  border-color: $mango !important;
+  color: $slate;
 }
 
 
@@ -1987,7 +1990,7 @@ input::-moz-focus-inner {
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  background-color:  #ef476f;
+  background-color:  $raspberry;
   position: relative;
   padding: 12rem 0;
   background-image: url("../images/hero-bg-3000-v2.png");
@@ -2010,7 +2013,7 @@ input::-moz-focus-inner {
 }
 
 .no-js .s-hero {
-  background: #fff9ef;
+  background: $ivory;
 }
 
 .hero-content {
@@ -2031,7 +2034,7 @@ input::-moz-focus-inner {
   letter-spacing: 0.1rem;
   padding-right: 3.2rem;
   margin-top: 0;
-  color: #fff9ef;
+  color: $ivory;
   position: relative;
 }
 
@@ -2040,7 +2043,7 @@ input::-moz-focus-inner {
   display: block;
   height: 2px;
   width: 8rem;
-  background-color: #ffd166;
+  background-color: $mango;
   position: absolute;
   left: -10.8rem;
   top: .55em;
@@ -2073,13 +2076,13 @@ input::-moz-focus-inner {
 }
 
 .hero-social a {
-  color: #fff9ef;
+  color: $ivory;
 }
 
 .hero-social a:hover,
 .hero-social a:focus,
 .hero-social a:active {
-  color: #ffd166;
+  color: $mango;
 }
 
 .hero-social li {
@@ -2150,12 +2153,12 @@ input::-moz-focus-inner {
 }
 
 .hero-scroll .scroll-link svg path {
-  fill: #fff9ef;
+  fill: $ivory;
 }
 
 .hero-scroll .scroll-link:hover,
 .hero-scroll .scroll-link:focus {
-  background-color: #ffd166;
+  background-color: $mango;
 }
 
 
@@ -2407,7 +2410,7 @@ html.no-csstransitions .hero-content {
 #about h1{
 font-weight: 800;
   font-size: 4.6rem;
-  color: #2b2c28;
+  color: $slate;
   margin-top: 0rem;
 }
 
@@ -2418,11 +2421,11 @@ font-weight: 800;
 }
 
 #about h3{
-  color: #7de2d1;
+  color: $mint;
 }
 
 #about .experience h3{
-  color: #ffd166;
+  color: $mango;
 }
 
 #about .experience h4{
@@ -2439,13 +2442,13 @@ font-weight: 800;
 }
 
 .experience{
-  background-color:  #fff9ef;
+  background-color:  $ivory;
   padding-bottom: 12rem;
   padding-top: 12rem;
 }
 
 .experience h3{
-  color: #ffd166;
+  color: $mango;
 }
 
 .s-about__section--profile {
@@ -2458,7 +2461,7 @@ font-weight: 800;
 .s-about__section--profile::before {
   content: "";
   display: block;
-  background-color: #7de2d1;
+  background-color: $mint;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -2497,7 +2500,7 @@ font-weight: 800;
 .position {
   padding-top: 3.6rem;
   padding-bottom: 3.2rem;
-  border-top: 3px solid #ffd166;
+  border-top: 3px solid $mango;
 }
 
 .position__header {
@@ -2620,7 +2623,7 @@ font-weight: 800;
 .s-services .vert-line {
   width: 2px;
   height: 20rem;
-  background-color: #ffd166;
+  background-color: $mango;
   -webkit-transform: translate3d(50%, 0, 0);
   transform: translate3d(50%, 0, 0);
   position: absolute;
@@ -2641,7 +2644,7 @@ font-weight: 800;
 }
 
 .services-list h5 {
-  color: #fff9ef;
+  color: $ivory;
 }
 
 .services-list__item {
@@ -2677,15 +2680,15 @@ font-weight: 800;
   font-weight: 600;
   font-size: .5em;
   line-height: 1;
-  color: #ffd166;
+  color: $mango;
   position: absolute;
   top: .5em;
   left: 0;
 }
 
 .services-list__item-header::after {
-  border-bottom: 2px solid #fff9ef;
-  border-right: 2px solid #fff9ef;
+  border-bottom: 2px solid $ivory;
+  border-right: 2px solid $ivory;
   content: '';
   display: block;
   height: 6px;
@@ -2802,12 +2805,11 @@ font-weight: 800;
 .s-portfolio {
   padding-top: 24rem;
   padding-bottom: 0;
-  background-color: #ef476f;
+  background-color: $raspberry;
   position: relative;
   background-image: url(../images/scorebuddy.png);
   background-repeat: no-repeat;
   background-position: bottom right;
-  background-size: 50%;
 }
 
 .s-portfolio::before {
@@ -2822,7 +2824,7 @@ font-weight: 800;
 }
 
 .s-portfolio h3{
-  color: #2b2c28;
+  color: $slate;
 }
 
 #portfolio{
@@ -2877,7 +2879,7 @@ font-weight: 800;
   font-family: "Gotham-Book", sans-serif;
   font-weight: 300;
   font-size: 3rem;
-  color: #fff9ef;
+  color: $ivory;
   display: block;
   height: 32px;
   width: 32px;
@@ -2919,7 +2921,7 @@ font-weight: 800;
 }
 
 .folio-item__title {
-  color: #fff9ef;
+  color: $ivory;
   font-weight: 400;
   font-size: 2.1rem;
   line-height: 1.333;
@@ -2940,8 +2942,8 @@ font-weight: 800;
   font-weight: 400;
   font-size: 1.2rem;
   line-height: 2rem;
-  color: #2b2c28;
-  background-color: #fff9ef;
+  color: $slate;
+  background-color: $ivory;
   padding: .6rem 1.2rem;
   opacity: 0;
   visibility: hidden;
@@ -2968,8 +2970,8 @@ font-weight: 800;
 .folio-item__project-link:hover,
 .folio-item__project-link:focus,
 .folio-item__project-link:active {
-  background-color: #ffd166;
-  color: #fff9ef;
+  background-color: $mango;
+  color: $ivory;
 }
 
 
@@ -3074,7 +3076,7 @@ font-weight: 800;
 
 .s-cta {
   padding-top: 12rem;
-  background-color: #fff9ef;
+  background-color: $ivory;
   font-size: 2.2rem;
   line-height: 1.818;
   text-align: center;
@@ -3120,17 +3122,17 @@ font-weight: 800;
 * ------------------------------------------------------------------- */
 
 #footer .subhead{
-   color: #fff9ef;
+   color: $ivory;
 }
 
 .s-footer {
   padding:12rem 0;
-  background-color: #2b2c28;
+  background-color: $slate;
   position: relative;
 }
 
 .s-footer .right-vert-line {
-  background-color: #ffd166;
+  background-color: $mango;
 }
 
 .s-footer__bottom {
@@ -3141,9 +3143,9 @@ font-weight: 800;
 
 .s-footer .footer-email-us .btn:hover,
 .s-footer .footer-email-us .btn:focus {
-  background-color: #fff9ef;
-  border-color: #fff9ef;
-  color: #2b2c28;
+  background-color: $ivory;
+  border-color: $ivory;
+  color: $slate;
 }
 
 .s-footer .footer-contacts {
@@ -3164,7 +3166,7 @@ font-weight: 800;
 }
 
 .footer-contact-block a {
-  color: #fff9ef;
+  color: $ivory;
   font-size: medium;
   padding-left: 2rem;
 }
@@ -3176,7 +3178,7 @@ font-weight: 800;
 
 .footer-contact-block a:hover,
 .footer-contact-block a:focus {
-  color: #ffd166;
+  color: $mango;
 }
 
 .footer-contact-block__content,
@@ -3210,12 +3212,12 @@ font-weight: 800;
 }
 
 .ss-copyright a {
-  color: #fff9ef;
+  color: $ivory;
 }
 
 .ss-copyright a:hover,
 .ss-copyright a:focus {
-  color: #ffd166;
+  color: $mango;
 }
 
 .ss-copyright span {
@@ -3259,7 +3261,7 @@ font-weight: 800;
   height: 6.4rem;
   width: 6.4rem;
   border-radius: 50%;
-  background-color: #2b2c28;
+  background-color: $slate;
   -webkit-transition: all .3s;
   transition: all .3s;
   position: relative;
@@ -3267,7 +3269,7 @@ font-weight: 800;
 
 .ss-go-top a:hover,
 .ss-go-top a:focus {
-  background-color: #ffd166;
+  background-color: $mango;
 }
 
 .ss-go-top svg {
@@ -3281,7 +3283,7 @@ font-weight: 800;
 }
 
 .ss-go-top svg path {
-  fill: #fff9ef;
+  fill: $ivory;
 }
 
 .ss-go-top.link-is-visible {
