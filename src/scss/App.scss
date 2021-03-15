@@ -1719,7 +1719,7 @@ input::-moz-focus-inner {
 }
 
 .header-nav a {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .header-nav a:hover,
@@ -2028,7 +2028,7 @@ input::-moz-focus-inner {
 }
 
 .hero-content h1 {
-  font-size: 8.5rem;
+  font-size: 7rem;
   font-weight: 800;
   line-height: 1;
   letter-spacing: 0.1rem;
@@ -2043,7 +2043,7 @@ input::-moz-focus-inner {
   display: block;
   height: 2px;
   width: 8rem;
-  background-color: $mango;
+  background-color: $ivory;
   position: absolute;
   left: -10.8rem;
   top: .55em;
@@ -2293,7 +2293,7 @@ html.no-csstransitions .hero-content {
 
 @media screen and (max-width:1800px) {
   .hero-content h1 {
-      font-size: 6.3rem;
+      font-size: 8rem;
   }
   .hero-content h1::before {
       width: 6rem;

@@ -10,7 +10,7 @@ function Hero() {
                     <h1>
                         Hi, I'm Dave - <br />
                 Software Developer <br />
-                & Front-end <br />
+                & Front-End <br />
                 Engineer.
                 </h1>
                 </div>
