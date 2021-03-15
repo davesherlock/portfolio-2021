@@ -1993,11 +1993,11 @@ input::-moz-focus-inner {
   background-color:  $raspberry;
   position: relative;
   padding: 12rem 0;
-  background-image: url("../images/hero-bg-3000-v2.png");
-  background-size:     cover;                      /* <------ */
-  background-repeat:   no-repeat;
-  background-position: center center;   
-  background-blend-mode: soft-light;
+  //background-image: url("../images/hero-bg-3000-v2.png");
+  //background-size:     cover;                   
+  //background-repeat:   no-repeat;
+  //background-position: center center;   
+  //background-blend-mode: soft-light;
 }
 
 .s-hero::before {
@@ -2028,7 +2028,7 @@ input::-moz-focus-inner {
 }
 
 .hero-content h1 {
-  font-size: 7rem;
+  font-size: 8.5rem;
   font-weight: 800;
   line-height: 1;
   letter-spacing: 0.1rem;
