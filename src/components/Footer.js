@@ -32,7 +32,7 @@ function Footer() {
         </div>
         <div className="row s-footer__bottom">
             <div className="column large-full ss-copyright">
-                <span>© Copyright Dave Sherlock 2019</span>
+                <span>© Copyright Dave Sherlock 2021</span>
             </div>
             <div className="ss-go-top">
                 <a className="smoothscroll" title="Back to Top" alt="Back to Top" href="#top">
