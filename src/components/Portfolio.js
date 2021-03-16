@@ -12,7 +12,7 @@ function Portfolio() {
                         <div className=" mobile-portfolio-pic">
                             <img src="images/scorebuddy-laptop.png" alt="scorebuddy-on-laptop" />
                         </div>
-                        <p>The past decade has been a busy one, with lots of development and application development. If you're interested in seeing some of my work, please let me know via the link below.</p>
+                        <p>The past decade has been a busy one, with lots of user interface design and application development. If you're interested in seeing some of my work, please let me know via the link below.</p>
                     </div>
                     <a href="mailto:hello@davesherlock.com" className="btn btn--stroke btn--small">Request Access</a>
                 </div>
